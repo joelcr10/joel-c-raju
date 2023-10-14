@@ -59,7 +59,7 @@ const Projects = () => {
                     <div className="project-right">
                         <p>An interactive Web platform that offers Users the opportunity to Read, Write and Publish their blogs.</p>
                         
-                        <Link to={"https://joelcr10.github.io/shopkart/"} target="_blank">View Projects <BsArrowRight className="right-arrow blue"/></Link>
+                        <Link to={"https://joelcr10.github.io/dojo-blog/"} target="_blank">View Projects <BsArrowRight className="right-arrow blue"/></Link>
                     </div>
                 </div>
                 <img src={dojoBlog} alt="" className="project-image" />

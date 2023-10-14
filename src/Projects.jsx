@@ -106,7 +106,7 @@ const Projects = () => {
                     <div className="project-right">
                         <p>A web application employing image classification technology for the identification of spoiled fruits, with a Raspberry Pi-based gas sensor system for real-time monitoring of emitted gases.</p>
                         
-                        <Link to={"https://learnchess.online/"} target="_blank">View Projects <BsArrowRight className="right-arrow light-blue"/></Link>
+                        <Link to={"https://github.com/joelcr10/fruits-spoilage-detection"} target="_blank">View Projects <BsArrowRight className="right-arrow light-blue"/></Link>
                     </div>
                 </div>
                 <img src={fruits} alt="" className="project-image" />
@@ -128,7 +128,7 @@ const Projects = () => {
                     <div className="project-right">
                         <p>A social networking platform tailored for individuals to share their visual narratives exclusively with close associates and peers.</p>
                         
-                        <Link to={"https://joelcr10.github.io/shopkart/"} target="_blank">View Projects <BsArrowRight className="right-arrow green"/></Link>
+                        <Link to={"https://joelcr10.github.io/socio/"} target="_blank">View Projects <BsArrowRight className="right-arrow green"/></Link>
                     </div>
                 </div>
                 <img src={socio} alt="" className="project-image" />
@@ -149,13 +149,11 @@ const Projects = () => {
                     <div className="project-right">
                         <p>An advanced mobile application designed to connect users with nearby medical professionals in urgent situations, ensuring prompt access to healthcare services.</p>
                         
-                        <Link to={"https://learnchess.online/"} target="_blank">View Projects <BsArrowRight className="right-arrow dark-blue"/></Link>
+                        <Link to={"https://github.com/joelcr10/Swiftaid"} target="_blank">View Projects <BsArrowRight className="right-arrow dark-blue"/></Link>
                     </div>
                 </div>
                 <img src={swiftaid} alt="" className="project-image" />
             </div>
-
-            
 
             {/* project adidas */}
             <div className="project-container">

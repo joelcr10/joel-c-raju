@@ -1,13 +1,294 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root{
+  --theme: rgb(49, 125, 207);
+  --background: rgb(255, 255, 255);
+  --font: rgb(0,0,0);
+  --font-hover: rgb(92, 92, 92);
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+}
+
+/* Navbar */
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.navbar label{
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: var(--theme);
+}
+
+.navbar .nav-link a{
+  margin-right: 30px;
+  font-weight: 900;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--font);
+}
+
+.navbar .nav-link a:hover{
+  color: var(--font-hover);
+  cursor: pointer;
+}
+
+
+
+/* home */
+.home{
+  /* background-color: red; */
+  display: flex;
+  padding: 0px 0px;
+  align-items: center;
+  
+}
+
+.home .home-background{
+  /* background-color: red; */
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+}
+
+.dev-animation{
+  height: auto;
+  width: 600px;
+}
+
+.home .home-text{
+  
+  width: 600px;
+}
+
+#top-text{
+  font-family: 'Raleway';
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+#bottom-text{
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 10px;
+}
+
+
+
+/* projects */
+.projects{
+  /* background-color: red; */
+  height: 500px;
+  font-family: 'Inter';
+  margin-top: 40px;
+  
+}
+
+.project-container{
+  width: 80vw;
+  margin: auto;
+  /* background-color: aqua; */
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-top: 1px solid rgba(59, 59, 59, 0.12);
+}
+
+.project-text{
+  display: flex;
+  align-items:center;
+  /* background-color: aqua; */
+}
+
+.project-left{
+  flex: 1 1 0px;
+}
+
+.project-left h1{
+  font-size: 56px;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 10px;
+  font-stretch: expanded;
+  display: flex;
+  align-items: center;
+}
+
+.orange{
+  color: rgb(240,127,20);
+}
+
+.blue{
+  color: rgb(14, 109, 209);
+}
+.light-blue{
+  color: rgb(85,178,248);
+}
+.green{
+  color: rgb(95,187,128);
+}
+
+.yellow{
+  color: rgb(215, 212, 23);
+}
+
+.dark-blue{
+  color: rgb(35,47,71);
+}
+
+.red{
+  color: rgb(246, 67, 67);
+}
+
+.project-left h1 .circle{
+  font-size: 30px;
+  margin-right: 20px;
+  position: absolute;
+  left: 6%;
+}
+
+.project-left label{
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+  
+  
+}
+
+.tech-stack{
+  /* background-color: red; */
+  /* width: 50%; */
+  margin-top: 10px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.422);
+  opacity: 0.5;
+  display: flex;
+}
+
+.project-left .tech-stack svg{
+  margin-right: 10px;
+}
+
+
+
+
+.project-right{
+  flex: 1 1 0px;
+}
+
+.project-right p{
+  font-size: 24px;
+}
+
+.project-right a{
+  text-decoration: none;
+  color: var(--font);
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.project-right a:hover{
+  color: grey;
+}
+
+.project-right a .right-arrow{
+  font-size: 40px;
+  margin-left: 10px;
+
+}
+
+.project-image{
+  width: 100%;
+  height: auto;
+  /* background-color: red; */
+  margin: 0;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .navbar{
+    padding: 10px 10px;
+  }
+  .navbar .nav-link a {
+    margin-right: 10px;
+  }
+
+  .home{
+    flex-direction: column-reverse;
+    padding-top: 40px;
+  }
+
+  .home .home-text{
+    width: 80%;
+    font-size: 50px;
+    margin: auto;
+  }
+
+  #top-text{
+    font-size: 3rem;
+  }
+
+  #bottom-text{
+    font-size: 1.5rem;
+  }
+
+  .dev-animation{
+    width: 350px;
+  }
+
+  .project-container{
+    /* background-color: red; */
+  }
+  .project-text{
+    flex-direction: column;
+    text-align: center;
+    justify-content: left;
+  }
+  .tech-stack{
+    text-align: center;
+    /* background-color: red; */
+    justify-content: center;
+  }
+
+  .project-left h1{
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  .project-right a{
+    justify-content: center;
+  }
+
+  .project-right p{
+    font-size: 16px;
+  }
+
+  .circle{
+    display: none;
+  }
 }

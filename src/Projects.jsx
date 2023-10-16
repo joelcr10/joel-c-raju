@@ -106,7 +106,7 @@ const Projects = () => {
                 project = "Code Quest"
                 tagline = "TREASURE HUNT GAME"
                 description = "Designed and implemented a Treasure Hunt game on the Telegram platform for the Tech-fest 2023 event, streamlining score updates and facilitating seamless team progress tracking."
-                link = "https://github.com/joelcr10/Code-Quest-EvolveX2023/tree/main"
+                link = "https://t.me/CodeQuestBot"
                 image = {codequest}
                 color = "purple"
                 icons = {[BiLogoPython,BiLogoTelegram,BiLogoFirebase]}

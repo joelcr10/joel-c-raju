@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import {BsArrowRight, BsFillCircleFill} from 'react-icons/bs';
 import React from "react";
-import {SiTensorflow} from 'react-icons/si'
+import {SiTensorflow,SiRaspberrypi,SiExpress} from 'react-icons/si'
 import {BiLogoHtml5,BiLogoCss3,BiLogoJavascript,BiLogoReact,BiLogoMongodb,BiLogoNodejs,BiLogoFlutter,BiLogoFirebase, BiLogoPython,BiLogoPhp,BiLogoTelegram} from 'react-icons/bi';
-import {SiExpress} from 'react-icons/si';
 import shopkart from './assets/images/shopkart.png';
 import dojoBlog from './assets/images/dojoBlog.png';
 import socio from './assets/images/socio.png';
@@ -13,6 +12,7 @@ import fruits from "./assets/images/fruits.png";
 import adidas from "./assets/images/adidas.png";
 import codequest from "./assets/images/codequest.png";
 import Footer from "./Footer";
+import SmallProjects from "./SmallProject";
 
 function BuildProject(props){
     return(
@@ -79,7 +79,7 @@ const Projects = () => {
                 link = "https://github.com/joelcr10/fruits-spoilage-detection"
                 image = {fruits}
                 color = "light-blue"
-                icons = {[BiLogoFlutter,BiLogoFirebase,BiLogoReact,BiLogoHtml5,BiLogoCss3,BiLogoPython,SiTensorflow]}
+                icons = {[BiLogoFlutter,BiLogoFirebase,BiLogoReact,BiLogoHtml5,BiLogoCss3,BiLogoPython,SiTensorflow,SiRaspberrypi]}
             />
 
             <BuildProject
@@ -121,6 +121,8 @@ const Projects = () => {
                 color = "red"
                 icons = {[BiLogoCss3,BiLogoJavascript,BiLogoHtml5]}
             />
+
+            <SmallProjects />
             <Footer />
         </div>
      );

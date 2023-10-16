@@ -298,6 +298,96 @@ body {
   }
 }
 
+/* small projects */
+.small-projects{
+  /* background-color: rgba(0, 0, 255, 0.43); */
+  display: flex;
+  padding-bottom: 70px;
+  padding-top: 80px;
+  border-top: 1px solid rgba(96, 96, 96, 0.343);
+  width: 80vw;
+  margin: auto;
+}
+.sp-container{
+  /* background-color: red; */
+  max-width: 350px;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Inter';
+}
+
+.sp-container .sp-image{
+  width: 100%;
+}
+
+.sp-container .title{
+  font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 10px;
+    font-stretch: expanded;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sp-container .tech-stack{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sp-container .sp-description{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+}
+
+.sp-container a{
+  text-decoration: none;
+    color: var(--font);
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sp-container a .right-arrow{
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.sp-container a:hover{
+  color: rgb(86, 86, 86);
+}
+
+
+@media screen and (max-width: 800px){
+  .sp-container{
+    width: 250px;
+  }
+  .sp-container .sp-image{
+    width: 80%;
+  }
+  .sp-container .title{
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .sp-container .tech-stack svg{
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  .sp-container a{
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .sp-container a .right-arrow{
+    font-size: 20px;
+  }
+}
 
 
 /* footer */

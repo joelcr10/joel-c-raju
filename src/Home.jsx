@@ -3,6 +3,7 @@ import Projects from "./Projects";
 import dev from './assets/images/dev.json';
 import setup from './assets/images/setup.json';
 import abstract from './assets/images/abstract background.json'
+import Footer from "./Footer";
 const Home = () => {
     return ( 
         <div>
@@ -15,6 +16,7 @@ const Home = () => {
             </div>
             </div>
             <Projects />
+            
         </div>
      );
 }

@@ -162,6 +162,10 @@ body {
   color: rgb(246, 67, 67);
 }
 
+.purple{
+  color: rgb(109,86,255);
+}
+
 .project-left h1 .circle{
   font-size: 30px;
   margin-right: 20px;
@@ -178,7 +182,8 @@ body {
 }
 
 .tech-stack{
-  /* background-color: red; */
+  /* background-color: red;
+  height: 50px; */
   /* width: 50%; */
   margin-top: 10px;
   font-size: 30px;
@@ -291,4 +296,38 @@ body {
   .circle{
     display: none;
   }
+}
+
+
+
+/* footer */
+.footer{
+  margin: auto;
+  width: 80vw;
+  /* background-color: red; */
+  border-top: 1px solid rgba(0, 0, 0, 0.156);
+  padding-bottom: 20px;
+}
+
+.footer h1{
+  font-size: 56px;
+  margin-bottom: 10px;
+}
+
+.footer .contact a{
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 30px;
+  text-decoration: none;
+  color: var(--font);
+  
+}
+
+.footer h1 .circle{
+  font-size: 30px;
+  margin-right: 20px;
+  margin-top: 16px;
+  position: absolute;
+  left: 6%;
+  /* top: 1px; */
 }

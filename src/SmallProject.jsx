@@ -30,14 +30,14 @@ const SmallProjects = () => {
     }
     return ( 
         <div className="small-projects">
-            <BuildSmallProject 
+            {/* <BuildSmallProject 
                 image = {connect}
                 project = "Connect Four"
                 icons = {[BiLogoCss3,BiLogoJavascript,BiLogoHtml5,BiLogoJquery]}
                 description = "A multiplayer JavaScript game where two players aim to align four colored dots either horizontally, vertically, or diagonally for victory"
                 color = "black"
                 link = "https://joelcr10.github.io/Connect-4-Game/"
-            />
+            /> */}
             <BuildSmallProject 
                 image = {tictac}
                 project = "Tic-Tac-Toe"
@@ -47,6 +47,16 @@ const SmallProjects = () => {
                 link = "https://joelcr10.github.io/Tic-Tac-Toe/"
 
             />
+            <BuildSmallProject 
+                image = {adidas}
+                project = "Speedflow-X"
+                icons = {[BiLogoCss3,BiLogoJavascript,BiLogoHtml5]}
+                description = "A multiplayer JavaScript game wherein two players aim to align identical symbols either horizontally, vertically, or diagonally."
+                color = "black"
+                link = "https://joelcr10.github.io/Tic-Tac-Toe/"
+
+            />
+            
             
 
         </div>

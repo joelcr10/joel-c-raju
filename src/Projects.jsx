@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import {BsArrowRight, BsFillCircleFill} from 'react-icons/bs';
 import React from "react";
 import {SiTensorflow,SiRaspberrypi,SiExpress} from 'react-icons/si'
-import {BiLogoHtml5,BiLogoCss3,BiLogoJavascript,BiLogoReact,BiLogoMongodb,BiLogoNodejs,BiLogoFlutter,BiLogoFirebase, BiLogoPython,BiLogoPhp,BiLogoTelegram} from 'react-icons/bi';
+import {BiLogoHtml5,BiLogoCss3,BiLogoJavascript,BiLogoReact,BiLogoMongodb,BiLogoNodejs,BiLogoFlutter,BiLogoFirebase, BiLogoPython,BiLogoPhp,BiLogoTelegram, BiLogoJquery} from 'react-icons/bi';
 import shopkart from './assets/images/shopkart.png';
 import dojoBlog from './assets/images/dojoBlog.png';
 import socio from './assets/images/socio.png';
@@ -11,6 +11,7 @@ import swiftaid from "./assets/images/swiftaid.png";
 import fruits from "./assets/images/fruits.png";
 import adidas from "./assets/images/adidas.png";
 import codequest from "./assets/images/codequest.png";
+import connect from "./assets/images/connect.png";
 import Footer from "./Footer";
 import SmallProjects from "./SmallProject";
 
@@ -112,7 +113,7 @@ const Projects = () => {
                 icons = {[BiLogoPython,BiLogoTelegram,BiLogoFirebase]}
             />  
 
-            <BuildProject
+            {/* <BuildProject
                 project = "Speedflow-X"
                 tagline = "PRODUCT LANDING PAGE"
                 description = "Designed and Developed a landing page website for showcasing the newly launched Adidas football boots."
@@ -120,6 +121,15 @@ const Projects = () => {
                 image = {adidas}
                 color = "red"
                 icons = {[BiLogoCss3,BiLogoJavascript,BiLogoHtml5]}
+            /> */}
+            <BuildProject
+                project = "Connect Four"
+                tagline = "JAVASCRIPT MULTIPLAYER GAME"
+                description = "A multiplayer JavaScript game where two players aim to align four colored dots either horizontally, vertically, or diagonally for victory"
+                link = "https://joelcr10.github.io/Adidas-x-Speedflow--Landing-Page-/"
+                image = {connect}
+                color = "red"
+                icons = {[BiLogoCss3,BiLogoJavascript,BiLogoHtml5,BiLogoJquery]}
             />
 
             <SmallProjects />

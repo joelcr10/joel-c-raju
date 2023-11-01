@@ -110,11 +110,34 @@ body {
 .project-container{
   width: 80vw;
   margin: auto;
-  /* background-color: aqua; */
+  /* background-color: #e51313; */
   padding-top: 60px;
   padding-bottom: 60px;
   border-top: 1px solid rgba(59, 59, 59, 0.12);
+
 }
+
+.project-background{
+  box-shadow: inset 0 0 0 0 white;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+  overflow: hidden;
+}
+
+.project-background:hover{
+  box-shadow: inset 100vw 0 0 0 rgb(95,187,128);
+}
+
+@keyframes background-ani {
+  0%{
+    background-color: none;
+  }
+  100%{
+    background-color: rgb(14, 109, 209);;
+  }
+}
+
 
 .project-text{
   display: flex;
@@ -171,12 +194,14 @@ body {
   margin-right: 20px;
   position: absolute;
   left: 6%;
+  z-index: -1;
+
 }
 
 .project-left label{
   font-size: 16px;
   font-weight: 400;
-  color: grey;
+  color: rgb(58, 58, 58);
   
   
 }

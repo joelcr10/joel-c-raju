@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import {BsArrowRight, BsFillCircleFill} from 'react-icons/bs';
-import React from "react";
+import {React, useState} from "react";
 import {SiTensorflow,SiRaspberrypi,SiExpress} from 'react-icons/si'
 import {BiLogoHtml5,BiLogoCss3,BiLogoJavascript,BiLogoReact,BiLogoMongodb,BiLogoNodejs,BiLogoFlutter,BiLogoFirebase, BiLogoPython,BiLogoPhp,BiLogoTelegram, BiLogoJquery} from 'react-icons/bi';
 import shopkart from './assets/images/shopkart.png';
@@ -16,8 +16,50 @@ import Footer from "./Footer";
 import SmallProjects from "./SmallProject";
 
 function BuildProject(props){
+    const [isHover, setIsHover] = useState(false);
+    const [bgColor,setBgColor] = useState("None");
+
+    const projectBackground = {
+        WebkitTransition: 'all ease 0.8s',
+        MozTransition: "all ease 0.8s",
+        transition: "all ease 0.8s",
+        overflow: "hidden",
+        boxShadow: isHover? 'inset 100vw 0 0 0 '+bgColor :'inset 0 0 0 0 white',
+    }
+
+    
+
+    const projectEnter = (color) => {
+        if(color==="orange"){
+            setBgColor("rgb(240,127,20)");
+        }else if(color==="blue"){
+            setBgColor("rgb(14, 109, 209)");
+        }else if(color==="light-blue"){
+            setBgColor("rgb(85,178,248)");
+        }else if(color==="green"){
+            setBgColor("rgb(95,187,128)");
+        }else if(color==="yellow"){
+            setBgColor("rgb(215, 212, 23)");
+        }else if(color==="dark-blue"){
+            setBgColor("rgb(35,47,71)");
+        }else if(color==="red"){
+            setBgColor("rgb(246, 67, 67)");
+        }else if(color==="purple"){
+            setBgColor("rgb(109,86,255)");
+        }
+
+
+        setIsHover(true);
+    }
+
+    const projectLeave = () => {
+        setBgColor("None")
+        setIsHover(false);
+    }
+    
     return(
-        <div className="project-container">
+        <div style={projectBackground} onMouseEnter={()=>projectEnter(props.color)} onMouseLeave={()=>projectLeave()}>
+            <div className="project-container">
                 <div className="project-text">
                     <div className="project-left">
                         <h1><BsFillCircleFill className={`circle ${props.color}`}/>{props.project}</h1>
@@ -38,6 +80,7 @@ function BuildProject(props){
                 </div>
                 <img src={props.image} alt="" className="project-image" />
             </div>
+        </div>
     );
 }
 const Projects = () => {
@@ -51,6 +94,7 @@ const Projects = () => {
                 image = {lco}
                 color = 'yellow'
                 icons = {[BiLogoHtml5,BiLogoJavascript,BiLogoCss3,BiLogoPhp]}
+               
             />
 
             <BuildProject

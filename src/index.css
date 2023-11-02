@@ -198,6 +198,43 @@ body {
 
 }
 
+.sphere{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(240,127,20);
+  border-radius: 50%;
+  /* margin-right: 20px; */
+  position:absolute;
+  left: 6%;
+  z-index: 0;
+  overflow: hidden;
+  --webkit-transition: all ease 0.8s;
+  --moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+}
+
+.sphere:hover{
+  /* background-color: red; */
+  z-index: -1;
+  height: 180%;
+  width: 100%;
+  border-radius: 0;
+  left: 0;
+}
+
+@keyframes sphere-animation {
+  0%{
+    height: 30px;
+    width: 30px;
+    left: 6%;
+  }100%{
+    height: 180%;
+    width: 100%;
+    left: 0;
+    border-radius: 0%;
+  }
+}
+
 .project-left label{
   font-size: 16px;
   font-weight: 400;

@@ -14,17 +14,26 @@ import codequest from "./assets/images/codequest.png";
 import connect from "./assets/images/connect.png";
 import Footer from "./Footer";
 import SmallProjects from "./SmallProject";
+import ScrollTrigger from 'react-scroll-trigger';
 
 function BuildProject(props){
     const [isHover, setIsHover] = useState(false);
     const [bgColor,setBgColor] = useState("None");
 
     const projectBackground = {
-        WebkitTransition: 'all ease 0.8s',
-        MozTransition: "all ease 0.8s",
-        transition: "all ease 0.8s",
         overflow: "hidden",
-        boxShadow: isHover? 'inset 100vw 0 0 0 '+bgColor :'inset 0 0 0 0 white',
+        position: "relative",
+    }
+
+    const sphere = {
+        position: "absolute",
+        WebkitTransition: 'all ease 2s',
+        MozTransition: "all ease 2s",
+        transition: "all ease 2s",
+        left: isHover? '-20%':"6%",
+        borderRadius: isHover? '0%':"50%",
+        zIndex:"-1",
+        fontSize: isHover? '5000px':"30px",
     }
 
     
@@ -56,31 +65,38 @@ function BuildProject(props){
         setBgColor("None")
         setIsHover(false);
     }
+
+    function scrollEffect(){
+        console.log("scrolling");
+    }
     
     return(
-        <div style={projectBackground} onMouseEnter={()=>projectEnter(props.color)} onMouseLeave={()=>projectLeave()}>
-            <div className="project-container">
-                <div className="project-text">
-                    <div className="project-left">
-                        <h1><BsFillCircleFill className={`circle ${props.color}`}/>{props.project}</h1>
-                        <label>{props.tagline}</label>
-                        <div className="tech-stack">
-                            {props.icons.map(icon => {
-                            // Check if icon is a string or a React component
-                                const IconComponent = icon;
-                                return <IconComponent key={icon} />;
-                            })}
+
+                <div style={projectBackground} onMouseEnter={()=>projectEnter(props.color)} onMouseLeave={()=>projectLeave()} onScroll={()=>scrollEffect()}>
+                <div className="project-container">
+                    <div className="project-text">
+                        <div className="project-left">
+                            <h1><BsFillCircleFill className={`${props.color}`} style={sphere}/>{props.project}</h1>
+                            {/* <h1><span style={sphere} className={props.color}></span>{props.project}</h1> */}
+                            <label>{props.tagline}</label>
+                            <div className="tech-stack">
+                                {props.icons.map(icon => {
+                                // Check if icon is a string or a React component
+                                    const IconComponent = icon;
+                                    return <IconComponent key={icon} />;
+                                })}
+                            </div>
+                        </div>
+                        <div className="project-right">
+                            <p>{props.description}</p>
+                            
+                            <Link to={props.link} target="_blank">View Projects <BsArrowRight className={`right-arrow ${props.color}`}/></Link>
                         </div>
                     </div>
-                    <div className="project-right">
-                        <p>{props.description}</p>
-                        
-                        <Link to={props.link} target="_blank">View Projects <BsArrowRight className={`right-arrow ${props.color}`}/></Link>
-                    </div>
+                    <img src={props.image} alt="" className="project-image" />
                 </div>
-                <img src={props.image} alt="" className="project-image" />
             </div>
-        </div>
+       
     );
 }
 const Projects = () => {

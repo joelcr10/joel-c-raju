@@ -189,6 +189,10 @@ body {
   color: rgb(109,86,255);
 }
 
+.violet{
+  color: rgb(75,63,107);
+}
+
 .project-left h1 .circle{
   font-size: 30px;
   margin-right: 20px;
@@ -238,7 +242,7 @@ body {
 .project-left label{
   font-size: 16px;
   font-weight: 400;
-  color: rgb(58, 58, 58);
+  color: rgb(0, 0, 0);
   
   
 }
@@ -249,7 +253,7 @@ body {
   /* width: 50%; */
   margin-top: 10px;
   font-size: 30px;
-  color: rgba(0, 0, 0, 0.422);
+  color: rgba(0, 0, 0, 0.706);
   opacity: 0.5;
   display: flex;
 }
@@ -279,7 +283,7 @@ body {
 }
 
 .project-right a:hover{
-  color: grey;
+  color: rgba(5, 5, 5, 0.652);
 }
 
 .project-right a .right-arrow{

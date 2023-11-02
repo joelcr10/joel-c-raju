@@ -12,6 +12,7 @@ import fruits from "./assets/images/fruits.png";
 import adidas from "./assets/images/adidas.png";
 import codequest from "./assets/images/codequest.png";
 import connect from "./assets/images/connect.png";
+import snap from "./assets/images/snap.png";
 import Footer from "./Footer";
 import SmallProjects from "./SmallProject";
 import ScrollTrigger from 'react-scroll-trigger';
@@ -36,6 +37,7 @@ function BuildProject(props){
         fontSize: isHover? '5000px':"30px",
     }
 
+    
     
 
     const projectEnter = (color) => {
@@ -120,6 +122,15 @@ const Projects = () => {
                 link = "https://joelcr10.github.io/dojo-blog/"
                 image = {dojoBlog}
                 color = "blue"
+                icons = {[BiLogoMongodb,SiExpress,BiLogoReact,BiLogoNodejs,BiLogoHtml5,BiLogoJavascript,BiLogoCss3]}
+            />
+            <BuildProject
+                project = "Snap URL"
+                tagline = "URL SHORTENING WEBSITE"
+                description = "Contributed to an Open-Source project by adding a feature that generates QR code for shortened link and also Designed and developed the github contributers page."
+                link = "https://app.snapurl.in/"
+                image = {snap}
+                color = "violet"
                 icons = {[BiLogoMongodb,SiExpress,BiLogoReact,BiLogoNodejs,BiLogoHtml5,BiLogoJavascript,BiLogoCss3]}
             />
 

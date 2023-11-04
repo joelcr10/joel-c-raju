@@ -53,7 +53,7 @@ const SmallProjects = () => {
                 icons = {[BiLogoCss3,BiLogoJavascript,BiLogoHtml5]}
                 description = "A multiplayer JavaScript game wherein two players aim to align identical symbols either horizontally, vertically, or diagonally."
                 color = "black"
-                link = "https://joelcr10.github.io/Tic-Tac-Toe/"
+                link = "https://joelcr10.github.io/Adidas-x-Speedflow--Landing-Page-/"
 
             />
             

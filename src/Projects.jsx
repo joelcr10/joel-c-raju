@@ -28,9 +28,9 @@ function BuildProject(props){
 
     const sphere = {
         position: "absolute",
-        WebkitTransition: 'all ease 2s',
-        MozTransition: "all ease 2s",
-        transition: "all ease 2s",
+        WebkitTransition: 'all ease-in 2s',
+        MozTransition: "all ease-in 2s",
+        transition: "all ease-in 2s",
         left: isHover? '-20%':"6%",
         borderRadius: isHover? '0%':"50%",
         zIndex:"-1",
@@ -197,7 +197,7 @@ const Projects = () => {
                 project = "Connect Four"
                 tagline = "JAVASCRIPT MULTIPLAYER GAME"
                 description = "A multiplayer JavaScript game where two players aim to align four colored dots either horizontally, vertically, or diagonally for victory"
-                link = "https://joelcr10.github.io/Adidas-x-Speedflow--Landing-Page-/"
+                link = "https://joelcr10.github.io/Connect-4-Game/"
                 image = {connect}
                 color = "red"
                 icons = {[BiLogoCss3,BiLogoJavascript,BiLogoHtml5,BiLogoJquery]}

@@ -1,21 +1,23 @@
 import { Link } from "react-router-dom";
-import {BsArrowRight, BsFillCircleFill} from 'react-icons/bs';
 import {React, useState} from "react";
+import Achievements from "./Achievements";
+// icons
+import {BsArrowRight, BsFillCircleFill} from 'react-icons/bs';
 import {SiTensorflow,SiRaspberrypi,SiExpress} from 'react-icons/si'
 import {BiLogoHtml5,BiLogoCss3,BiLogoJavascript,BiLogoReact,BiLogoMongodb,BiLogoNodejs,BiLogoFlutter,BiLogoFirebase, BiLogoPython,BiLogoPhp,BiLogoTelegram, BiLogoJquery} from 'react-icons/bi';
+// images
 import shopkart from './assets/images/shopkart.png';
 import dojoBlog from './assets/images/dojoBlog.png';
 import socio from './assets/images/socio.png';
 import lco from './assets/images/lco.png';
 import swiftaid from "./assets/images/swiftaid.png";
 import fruits from "./assets/images/fruits.png";
-import adidas from "./assets/images/adidas.png";
 import codequest from "./assets/images/codequest.png";
 import connect from "./assets/images/connect.png";
 import snap from "./assets/images/snap.png";
 import Footer from "./Footer";
 import SmallProjects from "./SmallProject";
-import ScrollTrigger from 'react-scroll-trigger';
+
 
 function BuildProject(props){
     const [isHover, setIsHover] = useState(false);
@@ -203,7 +205,8 @@ const Projects = () => {
                 icons = {[BiLogoCss3,BiLogoJavascript,BiLogoHtml5,BiLogoJquery]}
             />
 
-            <SmallProjects />
+            {/* <SmallProjects /> */}
+            <Achievements />
             <Footer />
         </div>
      );

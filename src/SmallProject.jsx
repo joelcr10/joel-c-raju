@@ -1,11 +1,9 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import adidas from "./assets/images/adidas.png";
-import lco from "./assets/images/lco.png";
 import tictac from "./assets/images/tictac.png";
-import connect from "./assets/images/connect.png";
-import {BsArrowRight, BsFillCircleFill} from 'react-icons/bs';
-import {BiLogoHtml5,BiLogoCss3,BiLogoJquery,BiLogoJavascript,BiLogoReact,BiLogoMongodb,BiLogoNodejs,BiLogoFlutter,BiLogoFirebase, BiLogoPython,BiLogoPhp,BiLogoTelegram} from 'react-icons/bi';
+import {BsArrowRight} from 'react-icons/bs';
+import {BiLogoHtml5,BiLogoCss3,BiLogoJquery,BiLogoJavascript} from 'react-icons/bi';
 
 
 const SmallProjects = () => {

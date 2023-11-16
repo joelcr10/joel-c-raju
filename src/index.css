@@ -456,6 +456,132 @@ body {
   }
 }
 
+/* achievements */
+
+.ach{
+  /* background-color: aqua; */
+  width: 350px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.ach:hover{
+  background-color: rgba(47, 47, 47, 0.18);
+  border-radius: 20px;
+  
+}
+
+.achievement-container{
+  
+  width: 90%;
+  margin: auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.129);
+  padding-top: 40px;
+  
+}
+
+.ach-heading{
+  color: rgb(3, 3, 3);
+  font-size: 56px;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 10px;
+  font-stretch: expanded;
+  text-align: center;
+
+}
+
+.achievements{
+  height: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1px;
+  
+  /* margin: 0 auto; */
+  margin: auto;
+  
+
+}
+.ach-container{
+  /* background-color: rgba(0, 0, 255, 0.516); */
+  width: 300px;
+  height: 350px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.ach-image{
+  width: 100%;
+  height: 450px;
+  position: absolute;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.ach-image:hover{
+  opacity: 1;
+  filter: brightness(20%);
+}
+
+.ach-texts{
+  /* background-color: yellow; */
+  border-radius: 20px;
+  padding: 10px;
+  padding-top: 0;
+  margin-top: 0px;
+  
+  
+}
+
+/* .ach-texts:hover{
+  background-color: rgba(12, 12, 189, 0.591);
+  border-radius: 20px;
+  
+} */
+
+.ach-text:hover ~ .ach-image{
+  filter: brightness(20%);
+}
+
+.ach-text{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  color: white;
+  text-align: center;
+  /* background-color: rgba(127, 255, 212, 0.451); */
+  width: 90%;
+  height: 100%;
+  
+}
+
+@media  screen and (max-width:1100px) {
+  .achievements{
+    height: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1px;
+  
+  /* margin: 0 auto; */
+  margin: auto;
+  }
+}
+
+@media  screen and (max-width:800px) {
+  .achievements{
+    height: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 1px;
+  
+  /* margin: 0 auto; */
+  margin: auto;
+  justify-content: center;
+  }
+}
 
 /* footer */
 .footer{

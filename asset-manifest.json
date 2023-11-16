@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joel-c-raju/static/css/main.09fb721e.css",
-    "main.js": "/joel-c-raju/static/js/main.47fac00a.js",
+    "main.css": "/joel-c-raju/static/css/main.f821d088.css",
+    "main.js": "/joel-c-raju/static/js/main.ee971f5f.js",
     "static/js/787.1ed0c42c.chunk.js": "/joel-c-raju/static/js/787.1ed0c42c.chunk.js",
     "static/media/shopkart.png": "/joel-c-raju/static/media/shopkart.87e9eed89a20fecae588.png",
     "static/media/socio.png": "/joel-c-raju/static/media/socio.0beca2cf7202f063741a.png",
@@ -10,17 +10,24 @@
     "static/media/dojoBlog.png": "/joel-c-raju/static/media/dojoBlog.3b010f5698e411d5f381.png",
     "static/media/adidas.png": "/joel-c-raju/static/media/adidas.ea7314cc5e6736f8a9e4.png",
     "static/media/fruits.png": "/joel-c-raju/static/media/fruits.9b8dd867f2d6555313e6.png",
+    "static/media/conf.png": "/joel-c-raju/static/media/conf.47031e7158280ea3a017.png",
+    "static/media/council.png": "/joel-c-raju/static/media/council.ec415c731934cd3298cf.png",
     "static/media/swiftaid.png": "/joel-c-raju/static/media/swiftaid.dd5d46a493ea349f143f.png",
     "static/media/snap.png": "/joel-c-raju/static/media/snap.99d7ae48bf5157d5dda0.png",
     "static/media/connect.png": "/joel-c-raju/static/media/connect.88341c8745a238b6867b.png",
+    "static/media/sports.png": "/joel-c-raju/static/media/sports.e73a24c1da2be6b8c8f3.png",
+    "static/media/hacktoberfest.png": "/joel-c-raju/static/media/hacktoberfest.b7d55cb14fc92cb19dcd.png",
     "static/media/tictac.png": "/joel-c-raju/static/media/tictac.ec697a1786a4ce8a9230.png",
+    "static/media/tree.png": "/joel-c-raju/static/media/tree.efb03842213753c915d8.png",
+    "static/media/acm.png": "/joel-c-raju/static/media/acm.e5316a6def8919c09529.png",
+    "static/media/hackerrank.png": "/joel-c-raju/static/media/hackerrank.3e602dc851b3b6122ad8.png",
     "index.html": "/joel-c-raju/index.html",
-    "main.09fb721e.css.map": "/joel-c-raju/static/css/main.09fb721e.css.map",
-    "main.47fac00a.js.map": "/joel-c-raju/static/js/main.47fac00a.js.map",
+    "main.f821d088.css.map": "/joel-c-raju/static/css/main.f821d088.css.map",
+    "main.ee971f5f.js.map": "/joel-c-raju/static/js/main.ee971f5f.js.map",
     "787.1ed0c42c.chunk.js.map": "/joel-c-raju/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09fb721e.css",
-    "static/js/main.47fac00a.js"
+    "static/css/main.f821d088.css",
+    "static/js/main.ee971f5f.js"
   ]
 }

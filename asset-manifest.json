@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/joel-c-raju/static/css/main.f821d088.css",
-    "main.js": "/joel-c-raju/static/js/main.ee971f5f.js",
+    "main.js": "/joel-c-raju/static/js/main.38105837.js",
     "static/js/787.1ed0c42c.chunk.js": "/joel-c-raju/static/js/787.1ed0c42c.chunk.js",
+    "static/media/imdb.png": "/joel-c-raju/static/media/imdb.9e5cbbb1ecf62e0f1f5b.png",
     "static/media/shopkart.png": "/joel-c-raju/static/media/shopkart.87e9eed89a20fecae588.png",
     "static/media/socio.png": "/joel-c-raju/static/media/socio.0beca2cf7202f063741a.png",
     "static/media/lco.png": "/joel-c-raju/static/media/lco.cc77100d8752d4d1795c.png",
@@ -16,6 +17,7 @@
     "static/media/snap.png": "/joel-c-raju/static/media/snap.99d7ae48bf5157d5dda0.png",
     "static/media/connect.png": "/joel-c-raju/static/media/connect.88341c8745a238b6867b.png",
     "static/media/sports.png": "/joel-c-raju/static/media/sports.e73a24c1da2be6b8c8f3.png",
+    "static/media/ilpex.png": "/joel-c-raju/static/media/ilpex.c833fe3cec79797c490d.png",
     "static/media/hacktoberfest.png": "/joel-c-raju/static/media/hacktoberfest.b7d55cb14fc92cb19dcd.png",
     "static/media/tictac.png": "/joel-c-raju/static/media/tictac.ec697a1786a4ce8a9230.png",
     "static/media/tree.png": "/joel-c-raju/static/media/tree.efb03842213753c915d8.png",
@@ -23,11 +25,11 @@
     "static/media/hackerrank.png": "/joel-c-raju/static/media/hackerrank.3e602dc851b3b6122ad8.png",
     "index.html": "/joel-c-raju/index.html",
     "main.f821d088.css.map": "/joel-c-raju/static/css/main.f821d088.css.map",
-    "main.ee971f5f.js.map": "/joel-c-raju/static/js/main.ee971f5f.js.map",
+    "main.38105837.js.map": "/joel-c-raju/static/js/main.38105837.js.map",
     "787.1ed0c42c.chunk.js.map": "/joel-c-raju/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f821d088.css",
-    "static/js/main.ee971f5f.js"
+    "static/js/main.38105837.js"
   ]
 }

@@ -4,7 +4,7 @@ import Achievements from "./Achievements";
 // icons
 import {BsArrowRight, BsFillCircleFill} from 'react-icons/bs';
 import {SiTensorflow,SiRaspberrypi,SiExpress} from 'react-icons/si'
-import {BiLogoHtml5,BiLogoCss3,BiLogoJavascript,BiLogoReact,BiLogoMongodb,BiLogoNodejs,BiLogoFlutter,BiLogoFirebase, BiLogoPython,BiLogoPhp,BiLogoTelegram, BiLogoJquery} from 'react-icons/bi';
+import {BiLogoHtml5,BiLogoCss3,BiLogoJavascript, BiLogoRedux ,BiLogoReact,BiLogoPostgresql,BiLogoMongodb,BiLogoNodejs,BiLogoFlutter,BiLogoFirebase, BiLogoPython,BiLogoPhp,BiLogoTelegram, BiLogoJquery} from 'react-icons/bi';
 // images
 import shopkart from './assets/images/shopkart.png';
 import dojoBlog from './assets/images/dojoBlog.png';
@@ -17,6 +17,8 @@ import connect from "./assets/images/connect.png";
 import snap from "./assets/images/snap.png";
 import Footer from "./Footer";
 import SmallProjects from "./SmallProject";
+import imdb from "./assets/images/imdb.png";
+import ilpex from "./assets/images/ilpex.png";
 
 
 function BuildProject(props){
@@ -59,6 +61,10 @@ function BuildProject(props){
             setBgColor("rgb(246, 67, 67)");
         }else if(color==="purple"){
             setBgColor("rgb(109,86,255)");
+        }else if(color==="tangerine"){
+            setBgColor("rgb(255,193,7)");
+        }else if(color==="violet"){
+            setBgColor("rgb(106,19,204)")
         }
 
 
@@ -106,6 +112,26 @@ function BuildProject(props){
 const Projects = () => {
     return ( 
         <div className="projects">
+            <BuildProject 
+                project = "ILPex"
+                tagline = "E-LEARNING TRACKING MOBILE APPLICATION"
+                description = "A React-Native mobile application that is used by L&D team to track the performance and progress of trainees in the E-Learning phase."
+                link = ""
+                image = {ilpex}
+                color = "purple"
+                icons = {[BiLogoReact,BiLogoNodejs,BiLogoPostgresql, BiLogoRedux]}
+               
+            />
+            <BuildProject 
+                project = "IMDb-Clone"
+                tagline = "Movies, TV shows and Celebs"
+                description = "A React website that uses TMDB API to fetch the latest Movies and TV shows, where users can rate and write review about any movie/tv-show."
+                link = "https://github.com/joelcr10/imdb/tree/dev"
+                image = {imdb}
+                color = 'orange'
+                icons = {[BiLogoHtml5,BiLogoJavascript,BiLogoCss3,BiLogoFirebase]}
+               
+            />
             <BuildProject 
                 project = "learnchess"
                 tagline = "STARTUP BUSINESS WEBSITE"

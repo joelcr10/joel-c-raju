@@ -500,9 +500,9 @@ body {
   
   /* margin: 0 auto; */
   margin: auto;
-  
-
+  grid-column: 2 / 3;
 }
+
 .ach-container{
   /* background-color: rgba(0, 0, 255, 0.516); */
   width: 300px;

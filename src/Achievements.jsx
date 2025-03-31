@@ -6,6 +6,7 @@ import conf from "../src/assets/images/conf.png";
 import sports from "../src/assets/images/sports.png";
 import acm from "../src/assets/images/acm.png";
 import council from "../src/assets/images/council.png";
+import ccp from "../src/assets/images/certified-cloud-practitioner.png";
 import { useState } from "react";
 const Achievements = () => {
     
@@ -54,16 +55,17 @@ const Achievements = () => {
     function AchievementBuilder(props){
         return(
             <div className="ache">
-                <Tilt tiltAngleXInitial={0} className="ach"> 
+                {/* <Tilt tiltAngleXInitial={0} className="ach">  */}
                 <div style={achContainer}>
+                    <Tilt tiltAngleXInitial={0} className="ach" glareEnable> 
                         <img src={props.image} alt="" style={achImage} />
-                          
+                    </Tilt>
                 </div>
                 <div className="ach-texts">
                     <h1>{props.title}</h1>
                     <p>{props.desc}</p>
                 </div>
-                </Tilt>
+                {/* </Tilt> */}
                 
             </div>
         );
@@ -74,6 +76,13 @@ const Achievements = () => {
             <h1 className="ach-heading">Accolades</h1>
             <div className="achievements">
                 {/* <h1>Achievements</h1> */}
+
+                <AchievementBuilder
+                    title = "AWS Certified Cloud Practitioner"
+                    desc = "Cleared the AWS Certified Cloud Practitioner Exam on Feb 2025. Gained knowledge of AWS services, cloud concepts, security, pricing, and architecture"
+                    image = {ccp}
+                />
+
                 <AchievementBuilder
                     title = "Conference Paper"
                     desc = 'Published a conference paper on IEEE xplore on the topic "Fruit Freshness Detection using IoT and Deep learning" for International conference on circuit power and computing technologies(ICCPCT).'
@@ -96,19 +105,17 @@ const Achievements = () => {
                 desc = "As the Web Master for ACM AJCE, I lead the development and management of the official website. Additionally, I played a vital role in organizing successful events, contributing to their execution."
                 image = {acm}
                 />
-                <AchievementBuilder
+                {/* <AchievementBuilder
                     title = "Hacktoberfest"
                     desc = "Contributed to Open-source project and successfully submitted 4 Pull Requests that were accepted during Hacktoberfest."
                     image = {hacktoberfest}
-                />
+                /> */}
                 
                 <AchievementBuilder
                     title = "Sports & Atheletics"
                     desc = "Received several awards in football and 100m Racing events. Participated in several football tournaments representing School, college and church."
                     image = {sports}
                 />
-            
-                
             </div> 
         </div>
     );

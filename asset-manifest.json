@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joel-c-raju/static/css/main.f821d088.css",
-    "main.js": "/joel-c-raju/static/js/main.38105837.js",
+    "main.css": "/joel-c-raju/static/css/main.bb83d30d.css",
+    "main.js": "/joel-c-raju/static/js/main.2d6de656.js",
     "static/js/787.1ed0c42c.chunk.js": "/joel-c-raju/static/js/787.1ed0c42c.chunk.js",
     "static/media/imdb.png": "/joel-c-raju/static/media/imdb.9e5cbbb1ecf62e0f1f5b.png",
     "static/media/shopkart.png": "/joel-c-raju/static/media/shopkart.87e9eed89a20fecae588.png",
@@ -22,14 +22,15 @@
     "static/media/tictac.png": "/joel-c-raju/static/media/tictac.ec697a1786a4ce8a9230.png",
     "static/media/tree.png": "/joel-c-raju/static/media/tree.efb03842213753c915d8.png",
     "static/media/acm.png": "/joel-c-raju/static/media/acm.e5316a6def8919c09529.png",
+    "static/media/certified-cloud-practitioner.png": "/joel-c-raju/static/media/certified-cloud-practitioner.54d3721520f7ff3d190b.png",
     "static/media/hackerrank.png": "/joel-c-raju/static/media/hackerrank.3e602dc851b3b6122ad8.png",
     "index.html": "/joel-c-raju/index.html",
-    "main.f821d088.css.map": "/joel-c-raju/static/css/main.f821d088.css.map",
-    "main.38105837.js.map": "/joel-c-raju/static/js/main.38105837.js.map",
+    "main.bb83d30d.css.map": "/joel-c-raju/static/css/main.bb83d30d.css.map",
+    "main.2d6de656.js.map": "/joel-c-raju/static/js/main.2d6de656.js.map",
     "787.1ed0c42c.chunk.js.map": "/joel-c-raju/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f821d088.css",
-    "static/js/main.38105837.js"
+    "static/css/main.bb83d30d.css",
+    "static/js/main.2d6de656.js"
   ]
 }

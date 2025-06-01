@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/joel-c-raju/static/css/main.bb83d30d.css",
-    "main.js": "/joel-c-raju/static/js/main.2d6de656.js",
+    "main.css": "/joel-c-raju/static/css/main.17ecf56a.css",
+    "main.js": "/joel-c-raju/static/js/main.80f38ed8.js",
     "static/js/787.1ed0c42c.chunk.js": "/joel-c-raju/static/js/787.1ed0c42c.chunk.js",
-    "static/media/imdb.png": "/joel-c-raju/static/media/imdb.9e5cbbb1ecf62e0f1f5b.png",
-    "static/media/shopkart.png": "/joel-c-raju/static/media/shopkart.87e9eed89a20fecae588.png",
-    "static/media/socio.png": "/joel-c-raju/static/media/socio.0beca2cf7202f063741a.png",
+    "static/media/imdb.png": "/joel-c-raju/static/media/imdb.22c471d4034be1a44af6.png",
+    "static/media/shopkart.png": "/joel-c-raju/static/media/shopkart.c7048a69f164b5645204.png",
+    "static/media/socio.png": "/joel-c-raju/static/media/socio.a640951f0015daaf7597.png",
     "static/media/lco.png": "/joel-c-raju/static/media/lco.cc77100d8752d4d1795c.png",
     "static/media/codequest.png": "/joel-c-raju/static/media/codequest.6b2e3ce793f1bf0ac5e3.png",
-    "static/media/dojoBlog.png": "/joel-c-raju/static/media/dojoBlog.3b010f5698e411d5f381.png",
+    "static/media/dojoBlog.png": "/joel-c-raju/static/media/dojoBlog.3efda641b042c013034c.png",
+    "static/media/fruits.png": "/joel-c-raju/static/media/fruits.fee0941befa165a73ac4.png",
     "static/media/adidas.png": "/joel-c-raju/static/media/adidas.ea7314cc5e6736f8a9e4.png",
-    "static/media/fruits.png": "/joel-c-raju/static/media/fruits.9b8dd867f2d6555313e6.png",
     "static/media/conf.png": "/joel-c-raju/static/media/conf.47031e7158280ea3a017.png",
     "static/media/council.png": "/joel-c-raju/static/media/council.ec415c731934cd3298cf.png",
     "static/media/swiftaid.png": "/joel-c-raju/static/media/swiftaid.dd5d46a493ea349f143f.png",
-    "static/media/snap.png": "/joel-c-raju/static/media/snap.99d7ae48bf5157d5dda0.png",
-    "static/media/connect.png": "/joel-c-raju/static/media/connect.88341c8745a238b6867b.png",
+    "static/media/connect.png": "/joel-c-raju/static/media/connect.def5c22598e541e1d5cb.png",
+    "static/media/snap.png": "/joel-c-raju/static/media/snap.4e3679573d9af2b434b6.png",
     "static/media/sports.png": "/joel-c-raju/static/media/sports.e73a24c1da2be6b8c8f3.png",
     "static/media/ilpex.png": "/joel-c-raju/static/media/ilpex.c833fe3cec79797c490d.png",
     "static/media/hacktoberfest.png": "/joel-c-raju/static/media/hacktoberfest.b7d55cb14fc92cb19dcd.png",
@@ -25,12 +25,12 @@
     "static/media/certified-cloud-practitioner.png": "/joel-c-raju/static/media/certified-cloud-practitioner.54d3721520f7ff3d190b.png",
     "static/media/hackerrank.png": "/joel-c-raju/static/media/hackerrank.3e602dc851b3b6122ad8.png",
     "index.html": "/joel-c-raju/index.html",
-    "main.bb83d30d.css.map": "/joel-c-raju/static/css/main.bb83d30d.css.map",
-    "main.2d6de656.js.map": "/joel-c-raju/static/js/main.2d6de656.js.map",
+    "main.17ecf56a.css.map": "/joel-c-raju/static/css/main.17ecf56a.css.map",
+    "main.80f38ed8.js.map": "/joel-c-raju/static/js/main.80f38ed8.js.map",
     "787.1ed0c42c.chunk.js.map": "/joel-c-raju/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb83d30d.css",
-    "static/js/main.2d6de656.js"
+    "static/css/main.17ecf56a.css",
+    "static/js/main.80f38ed8.js"
   ]
 }

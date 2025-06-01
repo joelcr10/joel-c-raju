@@ -149,7 +149,7 @@ body {
   flex: 1 1 0px;
 }
 
-.project-left h1{
+.project-left label{
   font-size: 56px;
   font-weight: 800;
   margin: 0;
@@ -193,12 +193,20 @@ body {
   color: rgb(75,63,107);
 }
 
-.project-left h1 .circle{
+.project-left label .circle{
   font-size: 30px;
-  margin-right: 20px;
+  margin-right: 10px;
   position: absolute;
-  left: 6%;
+  left: 0%;
   z-index: -1;
+
+}
+
+.project-left label span{
+  font-size: 50px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  margin-left: 30px;
 
 }
 
@@ -347,7 +355,7 @@ body {
     justify-content: center;
   }
 
-  .project-left h1{
+  .project-left label{
     justify-content: center;
     font-size: 40px;
   }

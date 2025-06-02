@@ -34,6 +34,7 @@ import Footer from "./Footer";
 import SmallProjects from "./SmallProject";
 import imdb from "./assets/images/imdb.png";
 import ilpex from "./assets/images/ilpex.png";
+import inshorts from "./assets/images/inshorts.png";
 
 function BuildProject(props) {
   const [isHover, setIsHover] = useState(false);
@@ -96,6 +97,8 @@ function BuildProject(props) {
       setBgColor("rgb(255,193,7)");
     } else if (color === "violet") {
       setBgColor("rgb(106,19,204)");
+    }else if (color === "red") {
+      setBgColor("rgb(233,73,73)");
     }
 
     setIsHover(true);
@@ -151,6 +154,15 @@ function BuildProject(props) {
 const Projects = () => {
   return (
     <div className="projects">
+        <BuildProject
+        project="Inshorts App"
+        tagline="LATEST NEWS SUMMARY APPLICATION"
+        description="Built a React Native app with Node.js backend for summarized news. Features include SSO, lazy loading, and bookmarks."
+        link=""
+        image={inshorts}
+        color="red"
+        icons={[BiLogoReact, BiLogoNodejs, BiLogoPostgresql, BiLogoRedux]}
+      />
       <BuildProject
         project="ILPex"
         tagline="E-LEARNING TRACKING MOBILE APPLICATION"

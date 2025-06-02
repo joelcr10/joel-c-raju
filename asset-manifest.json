@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joel-c-raju/static/css/main.17ecf56a.css",
-    "main.js": "/joel-c-raju/static/js/main.80f38ed8.js",
+    "main.css": "/joel-c-raju/static/css/main.5c86b23d.css",
+    "main.js": "/joel-c-raju/static/js/main.043f36b4.js",
     "static/js/787.1ed0c42c.chunk.js": "/joel-c-raju/static/js/787.1ed0c42c.chunk.js",
     "static/media/imdb.png": "/joel-c-raju/static/media/imdb.22c471d4034be1a44af6.png",
     "static/media/shopkart.png": "/joel-c-raju/static/media/shopkart.c7048a69f164b5645204.png",
@@ -11,6 +11,7 @@
     "static/media/dojoBlog.png": "/joel-c-raju/static/media/dojoBlog.3efda641b042c013034c.png",
     "static/media/fruits.png": "/joel-c-raju/static/media/fruits.fee0941befa165a73ac4.png",
     "static/media/adidas.png": "/joel-c-raju/static/media/adidas.ea7314cc5e6736f8a9e4.png",
+    "static/media/inshorts.png": "/joel-c-raju/static/media/inshorts.4af5ae4b6bd2c210ae66.png",
     "static/media/conf.png": "/joel-c-raju/static/media/conf.47031e7158280ea3a017.png",
     "static/media/council.png": "/joel-c-raju/static/media/council.ec415c731934cd3298cf.png",
     "static/media/swiftaid.png": "/joel-c-raju/static/media/swiftaid.dd5d46a493ea349f143f.png",
@@ -25,12 +26,12 @@
     "static/media/certified-cloud-practitioner.png": "/joel-c-raju/static/media/certified-cloud-practitioner.54d3721520f7ff3d190b.png",
     "static/media/hackerrank.png": "/joel-c-raju/static/media/hackerrank.3e602dc851b3b6122ad8.png",
     "index.html": "/joel-c-raju/index.html",
-    "main.17ecf56a.css.map": "/joel-c-raju/static/css/main.17ecf56a.css.map",
-    "main.80f38ed8.js.map": "/joel-c-raju/static/js/main.80f38ed8.js.map",
+    "main.5c86b23d.css.map": "/joel-c-raju/static/css/main.5c86b23d.css.map",
+    "main.043f36b4.js.map": "/joel-c-raju/static/js/main.043f36b4.js.map",
     "787.1ed0c42c.chunk.js.map": "/joel-c-raju/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17ecf56a.css",
-    "static/js/main.80f38ed8.js"
+    "static/css/main.5c86b23d.css",
+    "static/js/main.043f36b4.js"
   ]
 }
